@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="ShadowMeld.lua" />
+	<Frame name="ShadowMeld_InStealthFrame" enableMouse="false" toplevel="false" parent="UIParent" setAllPoints="true" frameStrata="BACKGROUND" hidden="true">
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture file="Interface\AddOns\ShadowMeld\InStealth.tga" />
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnLoad function="ShadowMeld_OnLoad" />
+			<OnEvent function="ShadowMeld_OnEvent" />
+		</Scripts>
+	</Frame>
+</Ui>
