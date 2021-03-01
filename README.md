@@ -1,2 +1,3 @@
-# wow-addon-shadowmeld
-ShadowMeld World of Warcraft AddOn
+# ShadowMeld
+
+World of Warcraft AddOn
