@@ -1,0 +1,7 @@
+﻿## Interface: 20400
+## Title: ShadowMeld
+## Version: 1.0
+## Author: flatrose
+## Notes: Provides a dark, fullscreen glowing effect while stealthed. Works with Stealth, Prowl and Shadowmeld.
+
+engine.lua
