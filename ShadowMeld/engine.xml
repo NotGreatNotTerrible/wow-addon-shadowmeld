@@ -1,0 +1,24 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+	<Frame name="ShadowMeldFrame" toplevel="false" parent="WorldFrame" setAllPoints="true" frameStrata="BACKGROUND" hidden="true">
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture file="Interface\AddOns\ShadowMeld\InStealth.tga" alphaMode="BLEND"/>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnLoad>
+				this:RegisterEvent("PLAYER_ENTERING_WORLD");
+				this:RegisterEvent("UNIT_AURA");
+			</OnLoad>
+			<OnEvent>
+				if (UnitAura("player", SM_STEALTH) or UnitAura("player", SM_PROWL) or UnitAura("player", SM_SHADOWMELD)) then
+					this:Show();
+				else
+					this:Hide();
+				end
+			</OnEvent>
+		</Scripts>
+	</Frame>
+
+</Ui>
