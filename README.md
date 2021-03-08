@@ -1,3 +1,3 @@
 # ShadowMeld
 
-World of Warcraft AddOn
+World of Warcraft addon
