@@ -1,4 +1,4 @@
-﻿## Interface: 90002
+## Interface: 11306
 ## Title: ShadowMeld
 ## Notes: Provides a dark, fullscreen shade effect while in stealth. Works with Stealth, Shadowmeld, and Prowl.
 ## Version: 3.1
