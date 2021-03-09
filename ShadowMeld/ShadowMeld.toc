@@ -1,7 +1,6 @@
-﻿## Interface: 90200
+﻿## Interface: 90002
 ## Title: ShadowMeld
-## Notes: Provides a dark, fullscreen shade effect while in stealth. Works with Shadowmeld, Stealth and Prowl.
-## Version: 3.0
-## X-Category: Combat
+## Notes: Provides a dark, fullscreen shade effect while in stealth. Works with Stealth, Shadowmeld, and Prowl.
+## Version: 3.1
 
 ShadowMeld.xml
